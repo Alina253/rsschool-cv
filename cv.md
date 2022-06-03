@@ -1,23 +1,19 @@
-rsschool-cv
--------
 # Parafiyanavichus Alina
--------
 ## Contact information:
-*Location: Vitebsk, Belarus
-*Phone: +375 29 510 81 21
-*Email: alina.par@mail.ru
-*GitHub: Alina253
-*Discord: Alina253
+* Location: Vitebsk, Belarus
+* Phone: +375 29 510 81 21
+* Email: alina.par@mail.ru
+* GitHub: Alina253
+* Discord: Alina253
 -------
 ## Briefly about myself:
 vkdjbvkuhv
 -------
-##Skills:
-LL
-l
-l
+## Skills:
+* HTML (Basic)
+* CSS (Basic)
 -------
-##Code example: 
+## Code example: 
 ```
 const makeItFunny = (str, n) => {
 let i = 0; 
@@ -35,15 +31,15 @@ return result;
 };
 ```
 -------
-##Work experience:
-CV
+## Work experience:
+Haven't got any work experience yet
 -------
-##Education and courses:
-*Vitebs State University
-*RS School Cours "JavaScript/Front-end. Stage 0" (in progress)
+## Education and courses:
+* Vitebs State University
+* RS School Cours "JavaScript/Front-end. Stage 0" (in progress)
 -------
-##Languages:
-*Russian
-*English
-*French
-*Polish
+## Languages:
+* Russian
+* English (B2)
+* French
+* Polish
