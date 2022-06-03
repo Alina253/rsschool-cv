@@ -1,15 +1,15 @@
 rsschool-cv
 -------
-#Parafiyanavichus Alina
+# Parafiyanavichus Alina
 -------
-##Contact information:
+## Contact information:
 *Location: Vitebsk, Belarus
 *Phone: +375 29 510 81 21
 *Email: alina.par@mail.ru
 *GitHub: Alina253
 *Discord: Alina253
 -------
-##Briefly about myself:
+## Briefly about myself:
 vkdjbvkuhv
 -------
 ##Skills:
