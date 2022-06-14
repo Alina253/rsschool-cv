@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+    <title>CV</title>
+</head>
+<body>
+  <header class="header">
+   <div >
+    <img class="photo" src="assets/img/me.jpg" alt="my photo" >
+   </div>
+
+   <div class="container"> 
+     <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#contact-information">Contact information</a></li>
+        <li class="nav-item"><a class="nav-link" href="#briefly-about-myself">Briefly about myself</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#code-example">Code example</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work-experience">Work experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education-and-courses">Educatoin and courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+   </div> 
+  </header>
+
+  <main class="main">
+   <div class="container"></div>
+
+  <section class="section" >
+   <h1 class="section-title">Alina Parafiyanavichus</h1>
+  </section>
+
+  <section class="section left" id="contact-information">
+   <h2 class="section-title">Contact information</h2>
+   <ul class="list">
+    <li><img src="assets/img/Location.png" alt="location" width="20" height="20">  Vitebsk, Belarus</li>
+    <li><img src="assets/img/phone.png" alt="phone" width="20" height="20">  +375 29 510 81 21</li>
+    <li><img src="assets/img/imail.png" alt="imail" width="25" height="20">alina.par@mail.ru</li>
+    <li><img src="assets/img/github.png" alt="github" width="20" height="20"><a href="https://github.com/Alina253" target="_blank" class="list-git"> Alina253</a></li>
+   </ul>
+  </section>
+ 
+  <section class="section me" id="briefly-about-myself">
+    <h2 class="section-title">Briefly about myself</h2>
+    <p>I am 23 years old. I've just graduated the university with a degree in foreign languages. Now I want to master another field of knowledge, namely front-end development. I'm always open to gaining new skills and attainments, ready to work hard and constantly improve myself. That's why I'm sure that soon I will be able to become a good front-end developer.</p>
+  </section>
+
+  <aside>
+  <section class="section skills"  id="skills">
+    <h2 class="section-title">Skills:</h2>
+    <ul class="list">
+      <li><img src="assets/img/html.png" alt="html-logo" width="20" height="20"> HTML (Basic)</li>
+      <li><img src="assets/img/CSS.png" alt="css-logo" width="20" height="20"> CSS (Basic)</li>
+      <li><img src="assets/img/github.png" alt="git-logo" width="20" height="20"> Git&Github</li>
+    </ul>
+  </section>
+</aside>
+
+<section class="section"  id="code-example">
+  <h2 class="section-title">Code example</h2>
+  <pre class="code">
+     <code>
+      const makeItFunny = (str, n) => {
+        let i = 0; 
+        let result = '';
+         while (i &lt; str.length) {
+         if ((i + 1) % n === 0) {
+          result = result + str[i].toUpperCase();
+        } else {
+          result = result + str[i];
+        }
+         i ++;
+        }        
+          return result;
+         };
+     </code>
+  </pre>
+ </section>
+
+  <section class="section experience"  id="work-experience">
+    <h2 class="section-title">Work experience</h2>
+    <p>Haven't got any work experience yet</p>
+  </section>
+
+  <section class="section education"  id="education-and-courses">
+    <h2 class="section-title">Educatoin and courses</h2>
+    <ul class="list">
+      <li>Vitebsk State University</li>
+      <li>RS School Cours "JavaScript/Front-end. Stage 0" <br>(in progress)</li>
+    </ul>
+  </section>
+  
+  <section class="section experience"  id="languages">
+    <h2 class="section-title">Languages</h2>
+    <ul class="list">
+      <li>Russian</li>
+      <li>English (B2)</li>
+      <li>French (A2)</li>
+      <li>Polish (A2)</li>
+   </ul>
+  </section>
+   </main>
+
+  <footer class="footer">
+  <div class="container">
+  <p><a href="https://rs.school/js/" target="_blank"><img class="logo" src="assets/img/image.png" alt="logo"></a></p>
+  <p><a href="https://github.com/Alina253" target="_blank" class="git-link">My <img src="assets/img/github.png" alt="github" width="25" height="25"></a></p> 
+  <p>ⓒ2022</p> 
+  </div>
+  </footer>
+ </body>
+</html>
